@@ -1,0 +1,21 @@
+{
+    "name": "angular-theme",
+    "displayName": "Angular Theme",
+    "description": "Angular's VS Code Themes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Angular Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Angular Theme-color-theme.json"
+            }
+        ]
+    }
+}
