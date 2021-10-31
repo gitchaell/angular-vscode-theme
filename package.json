@@ -1,13 +1,29 @@
 {
     "name": "angular-theme",
     "displayName": "Angular Theme",
-    "description": "Angular's VS Code Themes",
+    "description": "GitHub theme for VS Code",
     "version": "0.0.1",
+    "preview": true,
+    "publisher": "MichaellAlavedraMunayco",
+    "license": "MIT",
+    "icon": ".github/images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/issues"
+    },
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "angular",
+        "dark"
     ],
     "contributes": {
         "themes": [

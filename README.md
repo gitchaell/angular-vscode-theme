@@ -1,13 +1,25 @@
-# README
-## This is the README for your extension "angular-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Angular's VS Code themes
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+![Angular VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
 
-**Enjoy!**
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=angular-vscode-theme).
+2. Click on the "Install" button.
+3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
+    - `Angular Dark` (default)
+    - `Angular Light` (coming soon)
+
+## Override this theme
+
+To override this (or any other) theme in your personal config file, please follow the guide in the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation. This is handy for small tweaks to the theme without having to fork and maintain your own theme.
+
+## Contribute
+
+1. Clone and open this [repository](https://github.com/MichaellAlavedraMunayco/angular-vscode-theme) in VS Code
+2. Press `F5` to open a new window with your extension loaded
+3. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "Angular ..." theme you want to update.
+4. Make changes to the [`/theme`](https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/main/themes) folder.
+    - **UI**: For all changes to the "outer UI", like (status bar, file navigation etc.), take a look at the [Theme Color](https://code.visualstudio.com/api/references/theme-color) reference.
+    - **Syntax**: For changes to the "code highlighting", examine the syntax scopes by invoking the [`Developer: Inspect Editor Tokens and Scopes`](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) in the Extension Development Host window.
+5. Once you're happy, commit your changes and open a PR.
