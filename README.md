@@ -1,10 +1,15 @@
+<!--
+Created: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
+Modified: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
+-->
+
 # Angular's VS Code themes
 
-![Angular VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
+![Angular VS Code theme](https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/screenshot.png)
 
 ## Install
 
-1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=angular-vscode-theme).
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/).
 2. Click on the "Install" button.
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
     - `Angular Dark` (default)
