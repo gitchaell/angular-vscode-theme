@@ -23,14 +23,20 @@
     "keywords": [
         "theme",
         "angular",
-        "dark"
+        "dark",
+        "light"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Angular Theme",
+                "label": "Angular Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Angular Theme-color-theme.json"
+                "path": "./themes/angular.dark.theme.json"
+            },
+            {
+                "label": "Angular Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/angular.light.theme.json"
             }
         ]
     }
