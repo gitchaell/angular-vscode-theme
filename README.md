@@ -3,7 +3,30 @@ Created: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 Modified: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 -->
 
-# Angular's VS Code themes
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
+    <img src="https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/icon.png" width="192px" height="192px"/>
+  </a>
+</p>
+
+<h1 align="center">
+  Angular's VS Code themes
+</h1>
+
+<p align="center">
+    <a href="https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/issues">
+        <img src="https://img.shields.io/github/issues/MichaellAlavedraMunayco/angular-vscode-theme" alt="issues"/>
+    </a>
+    <a href="https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/">
+        <img src="https://img.shields.io/github/forks/MichaellAlavedraMunayco/angular-vscode-theme" alt="forks"/>
+    </a>
+    <a href="https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/">
+        <img src="https://img.shields.io/github/stars/MichaellAlavedraMunayco/angular-vscode-theme" alt="forks"/>
+    </a>
+    <a href="https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/">
+        <img src="https://img.shields.io/github/license/MichaellAlavedraMunayco/angular-vscode-theme" alt="forks"/>
+    </a>
+</p>
 
 ![Angular VS Code theme](https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/screenshot.png)
 
