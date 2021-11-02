@@ -36,7 +36,7 @@ Modified: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 2. Click on the "Install" button.
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
     - `Angular Dark` (default)
-    - `Angular Light` (coming soon)
+    - `Angular Light`
 
 ## Override this theme
 
