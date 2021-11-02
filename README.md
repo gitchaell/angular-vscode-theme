@@ -5,7 +5,7 @@ Modified: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
-    <img src="https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/icon.png" width="192px" height="192px"/>
+    <img src="https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/logo.png" width="192px" height="192px"/>
   </a>
 </p>
 
