@@ -46,11 +46,7 @@ Modified: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 
 ## Preferred Settings
 
----
-
-For Angular VS Code Theme to work on HTML templates, please use the [vscode-angular-html](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-html) extension
-
----
+> For Angular VS Code Theme to work on HTML templates, please use the [vscode-angular-html](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-html) extension
 
 Add this configuration to your VS Code `settings.json` file:
 
