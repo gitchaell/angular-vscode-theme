@@ -26,7 +26,7 @@ package-project-job:
 
 publish-project-job:
   stage: publish-project
-  only:
-    - tags
   script:
     - npm run publish
+  only:
+    - tags
