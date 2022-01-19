@@ -14,4 +14,4 @@ publish-job:
       apt install -y libasound2 libgbm1 libgtk-3-0 libnss3 xvfb
       xvfb-run -a npm run test
       npm run package
-      npm run deploy
+      npm run publish
