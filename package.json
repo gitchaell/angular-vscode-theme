@@ -1,43 +1,51 @@
 {
-  "name": "angular-theme",
-  "displayName": "Angular Theme",
-  "description": "Angular Theme for VS Code",
-  "version": "2.1.0",
-  "preview": true,
-  "publisher": "MichaellAlavedraMunayco",
-  "license": "MIT",
-  "icon": ".github/images/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/issues"
-  },
-  "engines": {
-    "vscode": "^1.61.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "angular",
-    "dark",
-    "light"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Angular Dark Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/angular.dark.theme.json"
-      },
-      {
-        "label": "Angular Light Theme",
-        "uiTheme": "vs",
-        "path": "./themes/angular.light.theme.json"
-      }
-    ]
-  }
+	"name": "angular-theme",
+	"displayName": "Angular Theme",
+	"description": "Angular Theme for VS Code",
+	"version": "2.2.0",
+	"preview": true,
+	"publisher": "MichaellAlavedraMunayco",
+	"license": "MIT",
+	"icon": ".github/images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/issues"
+	},
+	"scripts": {
+		"test": "vsce --help",
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},	
+	"devDependencies": {
+		"vsce": "^2.6.3"
+	},
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"angular",
+		"dark",
+		"light"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Angular Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/angular.dark.theme.json"
+			},
+			{
+				"label": "Angular Light Theme",
+				"uiTheme": "vs",
+				"path": "./themes/angular.light.theme.json"
+			}
+		]
+	}
 }
