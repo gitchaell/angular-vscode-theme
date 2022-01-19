@@ -3,21 +3,15 @@ image: node:14-buster
 before_script:
   - npm install
 
-test:
+stages:
+  - publish
+
+publish-job:
+  stage: publish
   script:
     - |
       apt update
       apt install -y libasound2 libgbm1 libgtk-3-0 libnss3 xvfb
       xvfb-run -a npm run test
-
-build:
-  only:
-    - tags
-  script:
-    - npm run package
-
-deploy:
-  only:
-    - tags
-  script:
-    - npm run publish
+      npm run package
+      npm run deploy
