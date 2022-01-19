@@ -1,32 +1,23 @@
 image: node:14-buster
 
-stages:
-  - install-dependencies
-  - update-environment
-  - package-project
-  - publish-project
+before_script:
+  - npm install
 
-install-dependencies-job:
-  stage: install-dependencies
-  script:
-    - npm install
-
-update-environment-job:
-  stage: update-environment
+test:
   script:
     - |
       apt update
       apt install -y libasound2 libgbm1 libgtk-3-0 libnss3 xvfb
       xvfb-run -a npm run test
 
-package-project-job:
-  stage: package-project
+build:
+  only:
+    - tags
   script:
     - npm run package
 
-publish-project-job:
-  stage: publish-project
-  script:
-    - npm run publish
+deploy:
   only:
     - tags
+  script:
+    - npm run publish
