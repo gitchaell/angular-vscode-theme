@@ -30,3 +30,7 @@ _Describa detalladamente el cambio requerido o la información necesaria_
 **Implementación de requerimientos**
 
 _Proponga una idea para aplicar una adición o un cambio que requiere a nivel de código_
+
+**Evidencias*
+
+_Adjuntar capturas de pantallas, gifs, o documentos relacionados al problema_
