@@ -4,7 +4,7 @@ Modified: Mon Dec 06 2021 22:11:58 GMT-0400 (hora de Bolivia)
 -->
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
-    <img src="https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/logo.png" width="170px" height="192px"/>
+    <img src=".github/images/logo.png" width="170px" height="192px"/>
   </a>
 </p>
 
@@ -27,13 +27,7 @@ Modified: Mon Dec 06 2021 22:11:58 GMT-0400 (hora de Bolivia)
     </a>
 </p>
 
-![Angular VS Code Theme](https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/flyer.png)
-
-## Demos
-
-![Angular VS Code Theme Dark Demo](https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/demo.dark.gif)
-
-![Angular VS Code Theme Light Demo](https://raw.githubusercontent.com/MichaellAlavedraMunayco/angular-vscode-theme/main/.github/images/demo.light.gif)
+![Angular VS Code Theme](.github/images/flyer.png)
 
 ## Install
 
