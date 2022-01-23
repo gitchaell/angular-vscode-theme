@@ -1,3 +1,12 @@
+---
+name: Enhancement request
+about: Request an enhancement
+title: ''
+labels: enhancement
+assignees: ''
+
+---
+
 **Comportamiento propuesto**
 
 _Explique qué debería ocurrir_
