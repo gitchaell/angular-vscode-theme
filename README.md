@@ -1,6 +1,6 @@
 <!--
 Created: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
-Modified: Mon Dec 06 2021 22:11:58 GMT-0400 (hora de Bolivia)
+Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
 -->
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
@@ -39,42 +39,29 @@ Modified: Mon Dec 06 2021 22:11:58 GMT-0400 (hora de Bolivia)
 
 ## Preferred Settings
 
-> For Angular VS Code Theme to work on HTML templates, please use the [vscode-angular-html](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-html) extension
+> For Angular VS Code Theme to work on HTML templates, please install the [vscode-angular-html](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-html) extension
 
-Add this configuration to your VS Code `settings.json` file:
+I suggest adding this configuration to your VS Code `settings.json` file:
 
 ```json
 {
     "editor.acceptSuggestionOnCommitCharacter": true,
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.cursorWidth": 3,
-    "editor.emptySelectionClipboard": false,
     "editor.fontLigatures": true,
-    "editor.fontSize": 12,
     "editor.fontWeight": "400",
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "editor.inlayHints.fontSize": 12,
     "editor.inlineSuggest.enabled": true,
-    "editor.lineHeight": 18,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.size": "fit",
     "editor.parameterHints.enabled": true,
     "editor.quickSuggestions": { "other": true, "comments": true, "strings": true },
     "editor.quickSuggestionsDelay": 3,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
-    "editor.suggest.localityBonus": true,
     "editor.suggest.preview": true,
     "editor.suggest.showStatusBar": true,
-    "editor.suggestFontSize": 12,
     "editor.suggestOnTriggerCharacters": true,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
-    "editor.tabSize": 1,
     "editor.wordBasedSuggestions": true,
-    "editor.wordWrap": "on",
-    "workbench.sideBar.location": "right",
 }
 ```
 
