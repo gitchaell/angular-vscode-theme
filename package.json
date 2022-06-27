@@ -2,7 +2,7 @@
 	"name": "angular-theme",
 	"displayName": "Angular Theme",
 	"description": "Angular Theme for VS Code",
-	"version": "3.2.0",
+	"version": "3.3.0",
 	"preview": true,
 	"publisher": "MichaellAlavedraMunayco",
 	"license": "MIT",
