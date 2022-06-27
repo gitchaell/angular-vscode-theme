@@ -27,7 +27,11 @@ Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
     </a>
 </p>
 
-![Angular VS Code Theme](.github/images/flyer.png)
+![HTML Code](.github/images/html.png)
+
+![CSS Code](.github/images/css.png)
+
+![Typescript Code](.github/images/ts.png)
 
 ## Install
 
