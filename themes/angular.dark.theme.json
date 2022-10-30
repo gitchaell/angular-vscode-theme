@@ -255,6 +255,7 @@
 				"entity.name.tag support.class.component",
 				"entity.name.tag.css",
 				"entity.name.tag.custom.css",
+				"entity.name.tag.custom.css",
 				"entity.name.tag.js",
 				"entity.name.tag.less",
 				"entity.name.tag.less",
@@ -266,7 +267,11 @@
 				"entity.name.tag.wildcard.sass",
 				"entity.name.tag.wildcard.scss",
 				"entity.name.tag",
+				"html-template.ng.expression.operator.comparison",
 				"keyword.operator.arithmetic.js",
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.definiteassignment.ts",
+				"keyword.operator.optional.ts",
 				"keyword.operator.ternary.js",
 				"keyword.operator.ternary.ts",
 				"markup.underline.link.image.markdown",
@@ -279,6 +284,7 @@
 				"meta.tag.other.js",
 				"meta.tag.other.tsx",
 				"meta.tag.tsx",
+				"punctuation.accessor.optional.ts",
 				"punctuation.definition.metadata.markdown",
 				"punctuation.section.embedded",
 				"string.template meta.template.expression",
@@ -287,10 +293,7 @@
 				"variable.language",
 				"variable.other.instance",
 				"variable.other.readwrite.instance",
-				"variable.reaedwrite.instance",
-				"keyword.operator.definiteassignment.ts",
-				"constant.language.import-export-all.ts",
-				"keyword.operator.arithmetic.ts"
+				"variable.reaedwrite.instance"
 			],
 			"settings": {
 				"foreground": "#f88ea2"
@@ -302,22 +305,28 @@
 				"constant.language",
 				"entity.name.function.pipe.ng",
 				"entity.name.tag.doctype",
+				"html-template.ng.interpolation.begin",
+				"html-template.ng.interpolation.end",
 				"italic",
+				"keyword.control.export.ts",
+				"keyword.control.flow.ts",
+				"keyword.control.from.ts",
+				"keyword.control.import.ts",
 				"keyword.operator.assignment",
 				"keyword.operator.comparison.js",
 				"keyword.operator.comparison.ts",
+				"keyword.operator.expression.delete.js",
+				"keyword.operator.expression.delete.ts",
 				"keyword.operator.expression.in.js",
 				"keyword.operator.expression.in.ts",
-				"keyword.operator.expression.let.ts",
+				"keyword.operator.expression.instanceof.js",
+				"keyword.operator.expression.instanceof.ts",
 				"keyword.operator.expression.let.js",
+				"keyword.operator.expression.let.ts",
 				"keyword.operator.expression.of.js",
 				"keyword.operator.expression.of.ts",
-				"keyword.operator.expression.delete.ts",
-				"keyword.operator.expression.delete.js",
-				"keyword.operator.expression.typeof.ts",
 				"keyword.operator.expression.typeof.js",
-				"keyword.operator.expression.instanceof.ts",
-				"keyword.operator.expression.instanceof.js",
+				"keyword.operator.expression.typeof.ts",
 				"keyword.operator.logical",
 				"keyword.operator.new.js",
 				"keyword.operator.new.ts",
@@ -345,7 +354,8 @@
 				"storage.type.property.ts",
 				"storage.type.property.tsx",
 				"storage.type",
-				"storage"
+				"storage",
+				"support.type.object.module.js"
 			],
 			"settings": {
 				"foreground": "#c8a4e4"
@@ -359,9 +369,15 @@
 				"constant.character",
 				"constant.other",
 				"entity.name.function",
+				"entity.name.tag.html.doctype",
+				"entity.name.tag.html.ng.ng-container",
+				"entity.name.tag.html.ng.router-outlet",
 				"entity.name.type.class.cs",
 				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
+				"html-template.ng.attributes.prefix.sugar",
+				"html-template.ng.attributes.template.prefix",
+				"html-template.ng.doctype",
+				"html-template.ng.exclamation.doctype",
 				"markup.heading.markdown",
 				"meta.at-rule.import.css",
 				"meta.decorator punctuation.decorator.ts",
@@ -370,9 +386,11 @@
 				"meta.function-call",
 				"meta.link.inline.markdown punctuation.definition.string",
 				"meta.method.declaration storage.type.js",
-				"meta.property-list.css meta.property-value.css variable.other.less",
+				"meta.property-list.css",
+				"meta.property-value.css",
 				"meta.selector.css",
 				"meta.tag.js meta.jsx.children.tsx",
+				"meta.tag.metadata.doctype.html",
 				"punctuation.definition.constant",
 				"punctuation.definition.ng-binding-name.begin.html",
 				"punctuation.definition.ng-binding-name.end.html",
@@ -397,6 +415,7 @@
 				"support.function",
 				"variable.function",
 				"variable.other.constant",
+				"variable.other.less",
 				"variable.parameter.function.js",
 				"variable.parameter.function.python"
 			],
@@ -408,6 +427,7 @@
 			"name": "Indigo",
 			"scope": [
 				"constant.language.symbol.hashkey.ruby",
+				"entity.name.tag.html.ng.ng-template",
 				"entity.name.tag.yaml",
 				"entity.name.type.module.ts",
 				"entity.name.type.ts",
@@ -443,6 +463,7 @@
 				"variable.other.jsdoc",
 				"variable.other.object.property",
 				"variable.other.phpdoc",
+				"variable.other.property.ts",
 				"variable.other.property",
 				"variable.parameter.function"
 			],
@@ -453,13 +474,22 @@
 		{
 			"name": "Green",
 			"scope": [
+				"html-template.ng.attributes.input-binding.second-level",
+				"keyword.operator.entity.html",
 				"punctuation.definition.string.begin.css",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.css",
+				"punctuation.definition.string.end.html",
+				"punctuation.definition.string.end.ts",
 				"source.elixir punctuation.definition.string",
+				"string.quoted.double.html",
 				"string.quoted.single.css",
+				"string.quoted.single.ts",
 				"string.quoted",
 				"string",
 				"support.type.property-name.json",
-				"keyword.operator.entity.html"
+				"variable.parameter.url.css"
 			],
 			"settings": {
 				"foreground": "#87e0bf"
@@ -481,6 +511,7 @@
 				"entity.other.attribute-name.id.html",
 				"entity.other.attribute-name.id",
 				"entity.other.attribute-name",
+				"html-template.ng.attributes.generic",
 				"markup.bold.markdown",
 				"meta.class entity.name.type.class",
 				"source.elixir entity.name.function",
@@ -516,6 +547,13 @@
 				"entity.other.ng-binding-name.ngSwitch.html",
 				"entity.other.ng-binding-name.nzSrc.html",
 				"entity.other.ng-binding-name.property.html",
+				"html-template.ng.attribute.doctype",
+				"html-template.ng.attributes.event-handler",
+				"html-template.ng.attributes.input-binding.first-level",
+				"html-template.ng.attributes.suffix.sugar",
+				"html-template.ng.attributes.template.variable",
+				"keyword.control.trycatch.js",
+				"keyword.control.trycatch.ts",
 				"meta.attribute-selector.css entity.other.attribute-name.attribute",
 				"meta.attribute-selector.less entity.other.attribute-name.attribute",
 				"meta.attribute-selector.sass entity.other.attribute-name.attribute",
@@ -525,6 +563,20 @@
 			],
 			"settings": {
 				"foreground": "#ffbe96"
+			}
+		},
+		{
+			"name": "Pink",
+			"scope": [
+				"constant.language.import-export-all.ts",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.ts",
+				"storage.modifier.async.ts"
+			],
+			"settings": {
+				"foreground": "#FFA0DA"
 			}
 		},
 		{
@@ -562,7 +614,6 @@
 				"meta.function punctuation.separator.comma",
 				"meta.function-call.php punctuation",
 				"meta.import.js variable.other",
-				"meta.import.ts punctuation.definition.block",
 				"meta.import.tsx punctuation.definition.block",
 				"meta.js punctuation.definition.js",
 				"meta.jsx.children.js",
@@ -581,6 +632,8 @@
 				"punctuation.definition.list.begin",
 				"punctuation.definition.list.end",
 				"punctuation.definition.list",
+				"punctuation.separator.key-value.css",
+				"punctuation.terminator.rule.css",
 				"punctuation.definition.parameters",
 				"punctuation.definition.string",
 				"punctuation.python",
@@ -644,11 +697,18 @@
 				"variable.sass",
 				"variable.scss",
 				"variable.ts",
-				"variable.tsx",
-				"meta.object-literal.key.ts"
+				"variable.tsx"
 			],
 			"settings": {
 				"foreground": "#d5d6db"
+			}
+		},
+		{
+			"name": "Smoke Italic",
+			"scope": ["meta.object-literal.key.ts"],
+			"settings": {
+				"foreground": "#d5d6db",
+				"fontStyle": "italic"
 			}
 		},
 		{
