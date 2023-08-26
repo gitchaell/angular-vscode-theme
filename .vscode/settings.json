@@ -1,0 +1,7 @@
+{
+	"editor.renderWhitespace": "all",
+	"prettier.useTabs": true,
+	"editor.tabSize": 2,
+	"prettier.singleQuote": true,
+	"editor.linkedEditing": true
+}

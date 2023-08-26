@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"naumovs.color-highlight",
+		"yoavbls.pretty-ts-errors",
+		"esbenp.prettier-vscode"
+	]
+}
