@@ -2,18 +2,22 @@
 	"name": "angular-theme",
 	"displayName": "Angular Theme",
 	"description": "Angular Theme for VS Code",
-	"version": "5.0.0",
+	"version": "6.0.0",
 	"preview": true,
 	"publisher": "MichaellAlavedraMunayco",
 	"license": "MIT",
 	"icon": ".github/images/icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme"
+		"url": "https://github.com/gitchaell/angular-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/MichaellAlavedraMunayco/angular-vscode-theme/issues"
+		"url": "https://github.com/gitchaell/angular-vscode-theme/issues"
 	},
+	"extensionDependencies": [
+		"angular.ng-template",
+		"ghaschel.vscode-angular-html"
+	],
 	"scripts": {
 		"test": "vsce --help",
 		"package": "vsce package",

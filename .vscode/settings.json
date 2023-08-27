@@ -3,5 +3,6 @@
 	"prettier.useTabs": true,
 	"editor.tabSize": 2,
 	"prettier.singleQuote": true,
-	"editor.linkedEditing": true
+	"editor.linkedEditing": true,
+	"color-highlight.markerType": "dot-before"
 }

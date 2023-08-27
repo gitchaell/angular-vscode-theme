@@ -1,0 +1,7 @@
+{
+  "editor.bracketPairColorization.enabled": false,
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always"
+}
