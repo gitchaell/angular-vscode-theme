@@ -12,11 +12,15 @@ Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
   Angular VS Code Theme
 </h1>
 
-![HTML Code](.github/images/html.png)
+![Cover](./assets/cover.png)
 
-![CSS Code](.github/images/css.png)
+## Shots
 
-![Typescript Code](.github/images/ts.png)
+![HTML Full Preview](./assets/heroes.component.html.png)
+
+![CSS Full Preview](./assets/heroes.component.css.png)
+
+![Typescript Full Preview](./assets/heroes.component.ts.png)
 
 ## Install
 
