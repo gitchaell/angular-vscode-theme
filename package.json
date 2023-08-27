@@ -6,14 +6,16 @@
 	"preview": true,
 	"publisher": "MichaellAlavedraMunayco",
 	"license": "MIT",
-	"icon": ".github/images/icon.png",
+	"icon": "./assets/icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/gitchaell/angular-vscode-theme"
 	},
+	"homepage": "https://github.com/gitchaell/angular-vscode-theme",
 	"bugs": {
 		"url": "https://github.com/gitchaell/angular-vscode-theme/issues"
 	},
+	"pricing": "Free",
 	"extensionDependencies": [
 		"angular.ng-template",
 		"ghaschel.vscode-angular-html"
@@ -33,10 +35,10 @@
 		"Themes"
 	],
 	"keywords": [
-		"theme",
 		"angular",
 		"dark",
-		"light"
+		"color",
+		"theme"
 	],
 	"contributes": {
 		"themes": [
@@ -44,11 +46,6 @@
 				"label": "Angular Dark Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/angular.dark.theme.json"
-			},
-			{
-				"label": "Angular Light Theme",
-				"uiTheme": "vs",
-				"path": "./themes/angular.light.theme.json"
 			}
 		]
 	}

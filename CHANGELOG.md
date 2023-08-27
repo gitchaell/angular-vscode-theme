@@ -1,5 +1,13 @@
 # Change Log
 
-All notable changes to the "angular-theme" extension will be documented in this file.
+All notable changes to the "Angular VS Code Theme" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 6.0.0 - 27-AUG-2023
+
+- Changed the color palette of the UI based on the `Vercel One Hunter` theme achieving a UX according to the modern standard proposed by Next UI.
+- Added extension dependencies in the `package.json` to ensure the correct tokenization of `angular templates`.
+- Easily identifiable colors are defined for angular template `tokens`.
+- Removed the `light theme` for not being sufficiently beneficial to the visual health of the user.
+- Documentation is modified to make it visually explicit.
+
+Thank you for using the "Angular VS Code Theme" extension. Do not hesitate to leave us your comments.
