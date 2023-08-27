@@ -1,4 +1,4 @@
-name: Publish VS Code Extension
+name: Publish Angular VS Code Theme Extension
 
 on:
   push:
