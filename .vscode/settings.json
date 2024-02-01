@@ -1,8 +1,10 @@
 {
+	"color-highlight.markerType": "dot-before",
+	"editor.linkedEditing": true,
 	"editor.renderWhitespace": "all",
-	"prettier.useTabs": true,
 	"editor.tabSize": 2,
 	"prettier.singleQuote": true,
-	"editor.linkedEditing": true,
-	"color-highlight.markerType": "dot-before"
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"debug.toolBarLocation": "docked",
 }

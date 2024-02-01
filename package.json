@@ -1,8 +1,8 @@
 {
 	"name": "angular-theme",
 	"displayName": "Angular Theme",
-	"description": "Angular Theme for VS Code",
-	"version": "6.0.0",
+	"description": "VS Code Theme for Angular projects based on Vercel UI Style Guide",
+	"version": "6.0.1",
 	"preview": true,
 	"publisher": "MichaellAlavedraMunayco",
 	"license": "MIT",
@@ -38,7 +38,10 @@
 		"angular",
 		"dark",
 		"color",
-		"theme"
+		"theme",
+		"vercel",
+		"next.js",
+		"vscode-theme"
 	],
 	"contributes": {
 		"themes": [

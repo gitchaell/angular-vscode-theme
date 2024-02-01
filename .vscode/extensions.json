@@ -2,6 +2,11 @@
 	"recommendations": [
 		"naumovs.color-highlight",
 		"yoavbls.pretty-ts-errors",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"miguelsolorio.symbols",
+		"wakatime.vscode-wakatime",
+		"codeium.codeium",
+		"github.vscode-github-actions",
+		"redhat.vscode-yaml"
 	]
 }
