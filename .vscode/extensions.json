@@ -7,6 +7,7 @@
 		"wakatime.vscode-wakatime",
 		"codeium.codeium",
 		"github.vscode-github-actions",
-		"redhat.vscode-yaml"
+		"redhat.vscode-yaml",
+		"njzy.stats-bar"
 	]
 }
