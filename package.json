@@ -6,7 +6,7 @@
 	"preview": true,
 	"publisher": "MichaellAlavedraMunayco",
 	"license": "MIT",
-	"icon": "./assets/icon.png",
+	"icon": "assets/icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/gitchaell/angular-vscode-theme"
@@ -16,10 +16,6 @@
 		"url": "https://github.com/gitchaell/angular-vscode-theme/issues"
 	},
 	"pricing": "Free",
-	"extensionDependencies": [
-		"angular.ng-template",
-		"ghaschel.vscode-angular-html"
-	],
 	"scripts": {
 		"test": "vsce --help",
 		"package": "vsce package",
