@@ -4,7 +4,7 @@ Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
 -->
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
-    <img src="./assets/logo.png" width="120px" />
+    <img src="assets/logo.png" width="120px" />
   </a>
 </p>
 
@@ -12,15 +12,15 @@ Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
   Angular VS Code Theme
 </h1>
 
-![Cover](./assets/cover.png)
+![Cover](assets/cover.png)
 
 ## Shots
 
-![HTML Full Preview](./assets/heroes.component.html.png)
+![HTML Full Preview](assets/heroes.component.html.png)
 
-![CSS Full Preview](./assets/heroes.component.css.png)
+![CSS Full Preview](assets/heroes.component.css.png)
 
-![Typescript Full Preview](./assets/heroes.component.ts.png)
+![Typescript Full Preview](assets/heroes.component.ts.png)
 
 ## Install
 
