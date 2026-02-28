@@ -4,7 +4,6 @@
 		"yoavbls.pretty-ts-errors",
 		"esbenp.prettier-vscode",
 		"miguelsolorio.symbols",
-		"codeium.codeium",
 		"redhat.vscode-yaml"
 	]
 }
