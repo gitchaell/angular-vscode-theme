@@ -3,73 +3,98 @@ Created: Sun Oct 31 2021 16:45:19 GMT-0400 (hora de Bolivia)
 Modified: Wed Mar 16 2022 20:55:10 GMT-0400 (hora de Bolivia)
 -->
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme">
-    <img src="assets/logo.png" width="120px" />
-  </a>
+  <img src="assets/logo.png" width="120px" alt="Angular Theme Logo" />
 </p>
 
 <h1 align="center">
-  Angular VS Code Theme
+  Angular VS Code Theme: Arquitectura y Diseño de Entorno
 </h1>
 
-Como desarrollador de software, paso la mayor parte de mi día frente a un editor de código. A lo largo del tiempo, noté que la mayoría de los temas disponibles introducen una fatiga visual considerable debido al uso de negros puros o paletas de colores excesivamente saturadas. Al no encontrar una solución que se alineara con mis preferencias estéticas y necesidades de concentración, decidí crear mi propia herramienta.
+Como arquitecto de software, entiendo que el entorno de desarrollo es tan crítico como el código que se escribe en él. La constante exposición a interfaces saturadas de estímulos visuales (negros absolutos y acentos cromáticos discordantes) genera una carga cognitiva innecesaria que merma el enfoque a lo largo de las sesiones de programación. Ante la falta de un entorno que cumpliera con mis estrictos estándares de legibilidad, serenidad visual y coherencia estructural, decidí diseñar esta solución.
 
-Este documento detalla la creación de **Angular Dark Theme**, un tema para Visual Studio Code diseñado bajo los estándares de la guía de estilos de *Vercel UI* y *shadcn/ui*. Su propósito es ofrecer un entorno de lectura cómodo, reducir la fatiga ocular y mantener el enfoque mediante un diseño estructurado y sutil.
-
----
-
-### El Problema de la Fatiga Visual en el Desarrollo
-
-En el ecosistema actual de herramientas de desarrollo, es común encontrar entornos que dificultan la retención de la concentración:
-*   **Contraste Extremo:** El uso extendido del negro puro (`#000000`) como fondo, junto con textos brillantes, genera un contraste agresivo que cansa la vista en sesiones prolongadas.
-*   **Ruido Cromático:** Muchos temas utilizan acentos fuertes o colores llamativos (como azules saturados) en la interfaz de usuario, lo cual distrae de la tarea principal: comprender la semántica del código.
-
-### La Solución: Diseño Sustractivo y Enfoque
-
-**Angular Dark Theme** aborda estos problemas desde la simplicidad, estableciendo una base visual serena y coherente que prioriza la legibilidad.
-
-[📸 **Insertar captura:** *Vista principal del editor mostrando un archivo de código complejo, destacando el fondo suave #09090B y el esquema de colores monocromático de la interfaz.*]
-
-#### Beneficios Clave del Diseño:
-
-*   **Ausencia de Negro Puro:** He descartado los fondos negros absolutos. En su lugar, el tema se asienta sobre un fondo oscuro suavizado (`#09090B`), proporcionando el nivel exacto de contraste necesario para no forzar la vista, ideal para jornadas largas o condiciones de poca luz.
-*   **Interfaz Monocromática:** La paleta base de la interfaz de usuario (paneles, barras de actividad, menús) es estrictamente monocromática, basada en escalas de grises y tonos neutros (`#27272A`, `#52525B`, `#FAFAFA`). He evitado explícitamente el uso de acentos azules o tonos discordantes en los componentes primarios para garantizar un entorno de trabajo sobrio.
-*   **Estética Inspirada en Vercel UI:** Las decisiones de color y la estructura visual toman como referencia directa la limpieza geométrica y el minimalismo de *Vercel UI* y *shadcn/ui*, aportando una sensación de orden y profesionalismo al editor.
-
-[📸 **Insertar captura:** *Vista dividida (Split view). A la izquierda, un archivo de código; a la derecha, la terminal integrada y el árbol de archivos, demostrando la consistencia de la interfaz sin distracciones.*]
+Este documento expone el análisis, la utilidad y la arquitectura subyacente de **Angular Dark Theme**, una extensión para Visual Studio Code diseñada para redefinir el espacio de trabajo del desarrollador.
 
 ---
 
-### ⚙️ Bajo el Capó: Arquitectura y Stack
+### Análisis del Problema y Utilidad de la Solución
 
-A nivel técnico, esta solución está construida de manera directa sobre las capacidades nativas de tematización de Visual Studio Code, manteniendo el proyecto liviano y fácil de mantener.
+El flujo de trabajo primario de cualquier ingeniero involucra la lectura intensiva de código, la identificación rápida de patrones sintácticos y la navegación entre múltiples vistas (árbol de archivos, terminal, editor). Los temas convencionales fallan en este aspecto por dos razones estructurales:
+1. **Contraste de Alto Esfuerzo:** El uso del negro puro (`#000000`) contra texto brillante genera un efecto halo perjudicial para la vista.
+2. **Jerarquía Visual Rota:** La sobreabundancia de acentos azules u otros colores saturados prioriza elementos secundarios sobre la semántica pura del código.
 
-*   **Configuración Centralizada:** El núcleo del proyecto es el archivo `themes/angular.dark.theme.json`. Aquí he definido de forma exhaustiva los valores hexadecimales para la interfaz de usuario de VS Code (en la propiedad `colors`), junto con las reglas específicas de resaltado de sintaxis (en `tokenColors`).
-*   **Ecosistema de Empaquetado:** La extensión está gestionada mediante `npm` y empaquetada con `vsce` (la herramienta oficial de CLI para extensiones de VS Code). El archivo `package.json` maneja la configuración de publicación, dependencias y los metadatos del *Marketplace*.
-*   **Soporte Multilenguaje Extendido:** Aunque el proyecto nació enfocado en el ecosistema Angular, he implementado soporte explícito mediante *TextMate tokens* para múltiples lenguajes y formatos de configuración. El tema incluye asignaciones de color específicas para:
-    *   **Archivos de Entorno y Configuración:** `.env`, `json`, `yml`
-    *   **Lenguajes de Programación:** `python`, `go`, `rust`, `java`, `kotlin`, `php`
+**Angular Dark Theme** resuelve este problema operativo aplicando una filosofía de diseño sustractivo, basada en los lineamientos estrictos de *Vercel UI* y *shadcn/ui*.
 
-Al analizar y definir tokens específicos para palabras clave (`keywords`) y funciones (`functions`) en estos lenguajes, aseguro que la legibilidad se mantenga constante sin importar el stack tecnológico en uso.
+#### Flujo de Utilidad Operativa:
+*   **Atenuación del Fondo:** Al inicializar el editor, el usuario es recibido por un fondo `#09090B` (un oscuro suave). Esto reduce inmediatamente la tensión ocular, permitiendo sesiones de lectura extendidas sin pérdida de concentración.
+*   **Enfoque Monocromático:** La navegación por la barra lateral y la interacción con terminales o paneles ocurre en un espectro puramente monocromático (`#27272A`, `#52525B`, `#FAFAFA`). Al eliminar el ruido de color en la interfaz de usuario, el cerebro del desarrollador es guiado instintivamente hacia el área central donde reside el código.
+*   **Resaltado Sintáctico Universal:** El desarrollador cambia entre archivos `.env`, configuración `json`, o lógica de backend en `python`, `go` o `rust`, y encuentra que los tokens semánticos mantienen una consistencia predecible. Esto reduce el esfuerzo mental necesario para parsear visualmente diferentes lenguajes.
 
-[📸 **Insertar captura:** *Mosaico de fragmentos de código en Go, Rust, Python y un archivo .env, ilustrando cómo el tema mantiene un resaltado sintáctico coherente en distintos lenguajes.*]
-
----
-
-### Instalación y Uso
-
-1. Visita la página de la extensión en el [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme).
-2. Haz clic en **Install**.
-3. En tu editor VS Code, selecciona **Angular Dark Theme** desde tu menú de temas de color.
-
-*(Nota: Si deseas realizar ajustes específicos o añadir acentos personales, puedes sobrescribir colores individuales directamente en tu archivo `settings.json` local siguiendo la [documentación oficial de VS Code](https://code.visualstudio.com/api/extension-guides/color-theme)).*
+[📸 **Captura:** Vista principal del editor demostrando el fondo #09090B y la paleta monocromática de la interfaz.]
 
 ---
 
-### Conclusión
+### Análisis Profundo: Arquitectura y Modelado
 
-Un editor de código ordenado y visualmente equilibrado es fundamental para mantener la comodidad a largo plazo durante el desarrollo. Angular Dark Theme es mi respuesta a esta necesidad, aplicando principios de diseño minimalista para crear una herramienta que facilita el trabajo diario.
+El proyecto se distancia de los empaquetados pesados y adopta la arquitectura declarativa nativa que ofrece el motor de tematización de Visual Studio Code.
 
-Si buscas un entorno de desarrollo más limpio, te invito a probar el tema. Además, si te interesa el desarrollo de herramientas para programadores, puedes explorar la configuración de la extensión en este repositorio.
+#### Arquitectura General y Patrones
+La estructura del proyecto es altamente cohesiva, centralizando toda la lógica de presentación en un único estado de configuración. Se apoya en el manejador de paquetes `npm` y la herramienta oficial `vsce` para su compilación y distribución.
 
-*Puedes descargar el tema, revisar el código o contactarme para consultas a través de este repositorio.*
+```mermaid
+graph TD;
+    A[package.json] -->|Define metadatos y punto de entrada| B(themes/angular.dark.theme.json)
+    B --> C{Motor de Renderizado VS Code}
+    C -->|Interfaz de Usuario| D[UI Theme Colors]
+    C -->|Sintaxis| E[TextMate Token Colors]
+
+    subgraph "Motor de Tematización Declarativo"
+    D
+    E
+    end
+```
+
+#### Modelado de Datos: Tokens y Semántica
+El "estado" o configuración central de la aplicación se gestiona en el archivo `angular.dark.theme.json`, el cual se divide en dos dominios principales:
+
+1.  **Entidad `colors`:** Mapea más de 100 propiedades específicas de la interfaz de VS Code (ej. `editor.background`, `activityBar.background`). Se rige por una regla estricta de monocromatismo, asegurando que ningún color brillante rompa la inmersión de la UI general.
+2.  **Entidad `tokenColors`:** Implementa un mapeo avanzado de scopes de *TextMate*. A pesar de su nombre "Angular", el modelo de datos de color fue reescrito para brindar soporte nativo a configuraciones y lenguajes críticos.
+
+```mermaid
+classDiagram
+    class TokenColors {
+        +String name
+        +Array scope
+        +Object settings
+    }
+    class Settings {
+        +String foreground
+        +String fontStyle
+    }
+    TokenColors --> Settings : define
+
+    class ScopesMultilenguaje {
+        +JSON/YML/Env Properties
+        +Go/Rust/Python Keywords
+        +Java/Kotlin Functions
+    }
+    TokenColors ..> ScopesMultilenguaje : aplica a
+```
+
+**Flujo de Asignación Semántica:** El analizador léxico de VS Code lee el archivo fuente, asigna scopes de *TextMate* a cada fragmento de código (ej. `keyword.control.go`), y este tema intercepta ese scope para aplicar un valor hexadecimal cuidadosamente calibrado, asegurando que palabras clave, variables y funciones mantengan un peso visual equilibrado en cualquier entorno.
+
+[📸 **Captura:** Mosaico de código mostrando la consistencia del resaltado sintáctico entre archivos Rust, Python y JSON.]
+
+#### Stack Tecnológico
+
+| Herramienta / Tecnología | Rol en la Arquitectura |
+| :--- | :--- |
+| **JSON** | Formato estructural y declarativo que define el modelo de datos completo del tema (colores UI y tokens de sintaxis). |
+| **TextMate Scopes** | Sistema de expresiones regulares utilizado por VS Code para la clasificación y tokenización del código fuente. |
+| **NPM (Node Package Manager)** | Gestión de dependencias de compilación y empaquetado del proyecto. |
+| **VSCE (@vscode/vsce)** | Interfaz de Línea de Comandos oficial empleada para compilar, validar y empaquetar la extensión en el formato `.vsix` para el Marketplace. |
+
+---
+
+### Resumen Técnico
+
+La arquitectura de Angular Dark Theme demuestra que la eficiencia en las herramientas de desarrollo no requiere complejidad algorítmica, sino rigor en el diseño de interfaces. Al acoplarse directamente a los motores declarativos nativos de VS Code y estructurar una paleta de colores sustentada en teorías de bajo contraste y supresión de ruido (alineándose a los estándares de Vercel UI), se logra una extensión altamente performante y libre de sobrecargas operativas. El resultado es una optimización directa del entorno de trabajo, traduciendo decisiones estéticas matemáticas en beneficios tangibles de legibilidad y resistencia a la fatiga visual.
